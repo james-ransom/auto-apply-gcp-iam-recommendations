@@ -6,6 +6,6 @@ GCP gives you recommendations on your IAM permissions.  Often users have too muc
 # Example view from the console
 
 <p align="center">
-  <img src="https://cloud.google.com/iam/img/recommender-replace.png" width="350" title="hover text">
+  <img src="https://cloud.google.com/iam/img/recommender-replace.png" width="650" title="hover text">
 </p>
 
