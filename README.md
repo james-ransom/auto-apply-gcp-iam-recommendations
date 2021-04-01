@@ -9,3 +9,12 @@ GCP gives you recommendations on your IAM permissions.  Often users have too muc
   <img src="https://cloud.google.com/iam/img/recommender-replace.png" width="650" title="hover text">
 </p>
 
+# How to run 
+
+First! Setup gcloud for your project.  https://cloud.google.com/sdk/docs/install
+
+Then, 
+ 
+```
+	ruby run.rb [projectname]
+```
