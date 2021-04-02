@@ -35,3 +35,9 @@ Example with ignore list, WITH dryrun option:
 ```
 	ruby run.rb myproject jeff@,bigquery@,boss@ dryrun
 ```
+
+Example with ignore list, WITH dryrun option:  
+
+```
+	ruby run.rb myproject dryrun
+```
