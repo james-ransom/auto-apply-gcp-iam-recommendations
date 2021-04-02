@@ -19,6 +19,9 @@ Then,
 	ruby run.rb [projectname] [ignorelist] [dryrun]
 ```
 
+ignorelist - a comma delimited list. if one of these items are in the member name, this member will be ignored 
+dryrun - if "dryrun" is specified anywhere in the command arguments, nothing will be send to gcp and executed
+
 Example with ignore list, no dryrun option:  
 
 ```
