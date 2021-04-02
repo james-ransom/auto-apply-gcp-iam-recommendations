@@ -24,9 +24,6 @@ Option Name | Required | Description
 ignorelist | No | a comma delimited list. if one of these items are in the member name, this member will be ignored  
 dryrun  | No | if "dryrun" is specified anywhere in the command arguments, nothing will be send to gcp and executed 
 
-## ignorelist - a comma delimited list. if one of these items are in the member name, this member will be ignored 
-## dryrun - if "dryrun" is specified anywhere in the command arguments, nothing will be send to gcp and executed
-
 Example with ignore list, no dryrun option:  
 
 ```
