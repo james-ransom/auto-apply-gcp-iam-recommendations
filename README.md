@@ -16,5 +16,17 @@ First! Setup gcloud for your project.  https://cloud.google.com/sdk/docs/install
 Then, 
  
 ```
-	ruby run.rb [projectname]
+	ruby run.rb [projectname] [ignorelist] [dryrun]
+```
+
+Example with ignore list, no dryrun option:  
+
+```
+	ruby run.rb myproject jeff@,bigquery@,boss@
+```
+
+Example with ignore list, WITH dryrun option:  
+
+```
+	ruby run.rb myproject jeff@,bigquery@,boss@ dryrun
 ```
