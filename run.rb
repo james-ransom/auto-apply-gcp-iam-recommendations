@@ -35,8 +35,9 @@ def removeRole(action, recommendation_id, etag, project_name, dryrun, ignore_lis
   remove_role_cmd = "gcloud projects remove-iam-policy-binding " + project_name + " --member=" + member + " --role=" + role + " --format=json"
   pp remove_role_cmd
   if !dryrun
+    pp "RUNNING: " + remove_role_cmd 
     remove_role_cmd_output = system(remove_role_cmd)
-    pp remove_role_cmd_output
+    pp "OUTPUT: " + remove_role_cmd_output
   end
   return true
 end
