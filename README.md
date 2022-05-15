@@ -6,7 +6,7 @@ GCP gives you recommendations on your IAM permissions.  Often users have too muc
 # Example of excess privileges and a given recommendation 
 
 <p align="center">
-  <img src="https://cloud.google.com/iam/img/recommender-replace.png" width="650" title="hover text">
+  <img src="https://cloud.google.com/policy-intelligence/img/recommender-revoke.png" width="650" title="hover text">
 </p>
 
 # How to run 
